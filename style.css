@@ -1,0 +1,112 @@
+body{
+background: #c7b39b url(images/beauty.jpg)no-repeat;
+background-size: 1500px 500px;
+background-color: white;
+}
+h1{
+  color:#DC143C	;
+  text-align: center;
+  margin-top: 150px;
+ font-family: 'Courgette', cursive;
+}
+h2{
+  color:#DC143C	;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Merriweather', serif;
+}
+.box_pic{
+    text-align: center;
+    margin-top: 250px;
+    background-color: white;
+    height: 200px;
+}
+.images{
+
+    background: LightPink;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+.Family{
+  position: absolute;
+   right:50px;
+}
+.Sisters{
+  position: absolute;
+left: 50px;
+}
+.Future{
+  color:#DC143C	;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 200%;
+ font-family: 'Courgette', cursive;
+}
+.AITU{
+  font-size: 150%;
+    text-align: center;
+}
+
+.Software{
+  text-decoration: underline;
+}
+hr {
+    border-color:#DC143C ;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 6px;
+    width: 5%;
+    margin: 20px auto;
+}
+.University{
+  border-radius: 25px;
+    text-align: center;
+}
+.Study{
+  color:#DC143C	;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 200%;
+ font-family: 'Courgette', cursive;
+}
+.photos{
+  text-align: center;
+  margin-top: 60px;
+  background-color: LightPink;
+  height: 300px;
+}
+.center{
+  background: LightPink;
+  margin-top: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.Thirty{
+  border-radius: 25px;
+
+}
+.Dosmuh{
+  border-radius: 25px;
+}
+.block1{
+  background-color: white	;
+  height:40px;
+  width: 450px;
+  position: absolute;
+  left:100px;
+}
+.block2{
+  background-color: white	;
+  height:40px;
+  width: 450px;
+  position: absolute;
+  right: 100px;
+  border-radius:10px;
+}
+.bottom-container {
+  text-align: center;
+background-color: LightPink;
+margin-top: 150px;
+
+}
