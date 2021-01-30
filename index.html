@@ -3,44 +3,85 @@
   <head>
     <link rel="shortcut icon" href="logo.jpeg">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <title>Assylay is homepage</title>
   </head>
   <body>
+    <section id="title">
+      <!--nav bar -->
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: 	#ffe6e6;">
+    <a class="navbar-brand" href="#">Assylay</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+    <li class="nav-item active">
+    <a class="nav-link" href="#title"> Home <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#image">Pictures</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#study"> Study</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#Contact"> Contact me</a>
+    </li>
+    </ul>
+    </div>
+    </nav>
+    </section>
+<section id="photos">
+  <div class="beauty">
   <h1>My name is Assylay</h1>
-<h2>Welcome to my personal webpage!</h2>
-<div class="box_pic">
-<p class="images">
-  <img class="Sisters"src="sisters.png" width="265" height="265" alt="Assylay is profile">
-    <img class="Me" src="Assylay.png.png" alt="Assylay is profile">
-  <img class="Family" src="family.png" width="265" height="265" alt="Assylay is profile">
-  </p>
+  <h2>Welcome to my personal webpage!</h2>
   </div>
-  <p class="Future">Future software engineer</p>
-  <p class="AITU"><em> I am student of <span class="Software">Software Engineering</span> at <a href="https://astanait.edu.kz/"> AITU</a> </em></p>
-  <img class="University" src="AITU.jpeg" alt="Assylay is profile" width="950"height="400">
-  <hr>
-  <h3 class=Study>Study</h3>
-  <div class="photos">
-       <p align=center>
-         <img class="Thirty" src="33.jpg" alt="Assylay is profile"width="500" height="300">
-         <img class="Dosmuh" src="Dosmuh.jpg" alt="Assylay is profile"width="600" height="300">
-       </p>
-     </div>
-     <div class="block1" align=center>
-<h2><em><a href="https://2gis.kz/atyrau/firm/70000001035624154">School number of 33</a></em></h2>
-  </div>
-  <div class="block2" align=center>
-    <h2><em><a href="https://2gis.kz/atyrau/firm/70000001034678007">Lyceum named after Zh.Dosmuhambetov</a></em></h2>
-  </div>
+</section>
+  <!--section2 -->
+  <section id="image">
+    <h1 class="Pic">Pictures</h1>
+    <hr width="500" />
+    <div class="box_pic">
+    <p class="images">
+    <img class="Sisters"src="sisters.png" width="265" height="265" alt="Assylay is profile">
+      <img class="Me" src="Assylay.png.png" alt="Assylay is profile">
+    <img class="Family" src="family.png" width="265" height="265" alt="Assylay is profile">
+    </p>
+    </div>
+  </section>
+
+  <!--section3 -->
+  <section id="study">
+    <h1 class=Study>Study</h1>
+    <hr width="500"/>
+    <table border="1" class="table">
+    <tr>
+      <td class="td">2009-2016</td>
+      <td class="td"> <a href="https://2gis.kz/atyrau/firm/70000001035624154">School number of 33</a></td>
+    </tr>
+    <tr>
+      <td class="td">2016-2020</td>
+      <td class="td"><a href ="https://2gis.kz/atyrau/firm/70000001034678007">Lyceum named after Zh.Dosmuhambetov</a></td>
+    </tr>
+    <tr>
+      <td class="td">2020-....</td>
+      <td class="td"><a href="https://2gis.kz/nur_sultan/firm/70000001036709805"> Astana IT University</a></td>
+    </tr>
+    </table>
+  </section>
+<section id="Contact">
+  <h1 class="Con">Contact me</h1>
+  <hr width="500" />
   <div class="bottom-container">
    <a class="footer-link" href="https://www.instagram.com/_assylay_03/?hl=ru">Instagram</a>
-   <a class="footer-link" href="https://github.com/TleukabylovaAssylay">Github</a>
-   <a class="footer-link" href="mailto:name@email.com">Mail</a>
+   <a class="footer-link2" href="https://github.com/TleukabylovaAssylay">Github</a>
+   <a class="footer-link3" href="mailto:name@email.com">Mail</a>
    <p class='licence'>© 2021 Tleukabylova Assyaly @ Astana IT University</p>
- </div>
-
+  </div>
+</section>
   </body>
 </html>
